@@ -19,6 +19,6 @@ ping -c 1 translate.google.com.tr | gawk -F'[()]' '/PING/{print $1 $2}'
 ping -c 1 code.google.com | gawk -F'[()]' '/PING/{print $1 $2}'
 ping -c 1 dl.google.com | gawk -F'[()]' '/PING/{print $1 $2}'
 ping -c 1 clients.google.com | gawk -F'[()]' '/PING/{print $1 $2}'
-ping -c 1 clients | gawk -F'[()]' '/PING/{print $1 $2}'1.google.com
+ping -c 1 clients1.google.com | gawk -F'[()]' '/PING/{print $1 $2}'
 ping -c 1 myaccount.google.com | gawk -F'[()]' '/PING/{print $1 $2}'
 ping -c 1 encrypted.google.com | gawk -F'[()]' '/PING/{print $1 $2}'
