@@ -13,11 +13,11 @@ Olası bir durumda erişememeniz durumunda hosts dosyanızı burada aldığını
 pinggoggle.bat > ipler.txt
 ```
 
-***nix**
+__*nix__
 
 ```shell
 chmod +x pinggogle.sh
-pingggole.sh > ipler.txt
+./pingggole.sh > ipler.txt
 ```
 
 Liste mutlaka ki eksik, scriptlerde de hata olabilir. Pull request gönderirseniz sevinirim.
